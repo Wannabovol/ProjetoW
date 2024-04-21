@@ -1,0 +1,39 @@
+body,p,h1{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'inter';
+}
+header,footer{
+    background-color: #303030;
+    color: white;
+}
+header{
+    padding: 120px 0px 70px 30px  ;
+}
+section,form,footer{
+    display: flex;
+} 
+form{
+    flex-direction: column;
+    margin:45px 0px;
+}
+section:first-child{
+    justify-content: space-around;
+}
+footer{
+    justify-content: center;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.textosecao2{
+    margin: auto 0px;
+}
+.mdiv{
+    padding: 35px 0px;
+}
+input{
+
+}
