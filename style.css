@@ -1,10 +1,14 @@
-body,
-p,
-h1 {
+body {
     margin: 0px;
-    padding: 15px;
+    padding: 0px;
     font-family: 'inter';
 }
+
+h1,
+p {
+    margin-bottom: 25px;
+}
+
 header,
 footer {
     background-color: #303030;
@@ -13,46 +17,57 @@ footer {
     padding-bottom: 50px;
 
 }
+
 header {
     padding: 120px 0px 70px 30px;
 }
+
 section,
 form,
 footer {
     display: flex;
 }
+
 form {
     flex-direction: column;
     margin: 45px 0px;
 }
+
 section:first-child {
     justify-content: space-around;
 }
+
 footer {
     justify-content: center;
 }
+
 .container {
-    width: 960px;
+    width: 1200px;
     margin: 0 auto;
-    justify-content:space-around;    
+    justify-content: space-between;
 }
+
 .textosecao2 {
     margin: auto 0px;
 }
+
 .mdiv {
     padding: 35px 0px;
 }
+
 .ndiv {
     background-color: #F9F9F9;
 }
+
 input {
     background-color: #FFFFFF;
     width: 250px;
     height: 35px;
     margin-top: 25px;
     border-radius: 5px;
-    padding-left: 10px;   
+    padding-left: 10px;
 }
+
 button {
     background-color: #C07212;
     color: #FFFFFF;
@@ -64,7 +79,8 @@ button {
     font-weight: bolder;
     font-size: 17px;
 }
-.formulario{
+
+.formulario {
     display: flex;
     flex-direction: column;
     justify-content: column;
@@ -72,10 +88,12 @@ button {
     text-align: center;
     margin-top: 50px;
 }
+
 .formulario h3 {
     margin-bottom: 10px;
     margin-top: 30px;
 }
+
 .formulario form {
     margin-top: 20px;
 }
